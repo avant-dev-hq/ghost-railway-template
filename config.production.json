@@ -1,0 +1,22 @@
+{
+  "url": "https://YOUR_APP.up.railway.app",
+  "admin": {
+    "url": "https://YOUR_APP.up.railway.app"
+  },
+  "server": {
+    "port": 8080,
+    "host": "0.0.0.0",
+    "trustProxy": true
+  },
+  "paths": {
+    "contentPath": "/var/lib/ghost/content"
+  },
+  "mail": {
+    "transport": "Direct"
+  },
+  "logging": {
+    "transports": ["stdout"]
+  },
+  "process": "local",
+  "env": "production"
+}
